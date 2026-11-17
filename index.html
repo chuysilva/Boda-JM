@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<base target="_top"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<title>Jesús &amp; Miroslava · Confirmación</title>
+
+<link href="styles.css" rel="stylesheet"/></head>
+<body>
+<main class="container">
+<div class="overline">J &amp; M · 16.12.2026</div>
+<article class="invitation">
+<header class="heading">
+<div class="names">Jesús <span>&amp;</span> Miroslava</div>
+<p>CELEBRA CON NOSOTROS EL COMIENZO DE NUESTRA HISTORIA</p>
+</header>
+<section aria-label="Galería de fotografías de Jesús y Miroslava" class="gallery" tabindex="0">
+<div class="track" id="galeriaTrack">
+<figure class="slide"><img alt="Jesús y Miroslava, fotografía 1" draggable="false" loading="eager" src="assets/fotos/foto-01.webp"/></figure>
+<figure class="slide"><img alt="Jesús y Miroslava, fotografía 2" draggable="false" loading="lazy" src="assets/fotos/foto-02.webp"/></figure>
+<figure class="slide"><img alt="Jesús y Miroslava, fotografía 3" draggable="false" loading="lazy" src="assets/fotos/foto-03.webp"/></figure>
+<figure class="slide"><img alt="Jesús y Miroslava, fotografía 4" draggable="false" loading="lazy" src="assets/fotos/foto-04.webp"/></figure>
+<figure class="slide"><img alt="Jesús y Miroslava, fotografía 5" draggable="false" loading="lazy" src="assets/fotos/foto-05.webp"/></figure>
+</div>
+</section>
+<div aria-hidden="true" class="gallery-bottom">
+<div class="gallery-progress"><div class="gallery-progress-fill" id="progresoFotos"></div></div>
+</div>
+<p class="sr-only">Desliza la galería a los lados para cambiar de fotografía. También puedes usar las flechas del teclado.</p>
+<div class="content">
+<div class="divider">✦</div>
+<div class="section-label">Nuestro gran día</div>
+<h1>¡Nos casamos! ♡</h1>
+<p class="intro">Nos encantaría que nos acompañaras a celebrar este momento tan especial.</p>
+<div class="details">
+<div class="item">📆 Miércoles 16 de diciembre de 2026</div>
+<div class="item">⏰ 6:00 PM</div>
+<div class="item">📍 <strong>Quinta Bustamante</strong></div>
+<div class="place">Anastasio Bustamante 209, Gerónimo Treviño, Apodaca, Nuevo León</div>
+<a class="map" href="https://maps.app.goo.gl/HXgKrShJfrqSuKqKA?g_st=ic" rel="noopener noreferrer" target="_blank">Cómo llegar</a>
+</div>
+<div class="divider">✦</div>
+<div id="cargando" role="status">Preparando tu confirmación…</div>
+<div id="error" role="alert"></div>
+<section aria-label="Confirmación de asistencia" id="contenido">
+<div class="section-label">Confirmación de asistencia</div>
+<p class="hello">Hola, <strong id="nombre"></strong>.</p>
+<p class="reserved" id="reserva"></p>
+<label for="cantidad">¿Cuántas personas nos acompañarán?</label>
+<select id="cantidad"></select>
+<button class="confirm" id="guardar" type="button">Confirmar asistencia</button>
+<div aria-live="polite" id="mensaje" role="status"></div>
+<p class="note">Puedes regresar a este enlace para modificar tu respuesta.</p>
+</section>
+</div>
+</article>
+<div class="closing">Con cariño, Jesús &amp; Miroslava</div>
+</main>
+<audio autoplay="" id="musicaBoda" loop="" playsinline="" preload="auto" src="assets/musica/piano.mp3"></audio>
+
+
+<script defer="" src="config.js"></script><script defer="" src="app.js"></script></body>
+</html>
